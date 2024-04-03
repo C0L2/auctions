@@ -1,0 +1,5 @@
+# This file says: do not format folowing files/folders
+
+dist
+build
+coverage
