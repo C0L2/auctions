@@ -9,6 +9,7 @@ module.exports = {
   ],
   ignorePatterns: ["dist"],
   parser: "@typescript-eslint/parser",
+  plugins: ["react-refresh"],
   rules: {
     semi: ["error", "never"],
     "react-hooks/exhaustive-deps": 0,
