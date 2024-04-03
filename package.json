@@ -54,7 +54,6 @@
   "lint-staged": {
     "**/*.(ts|tsx)": [
       "yarn lint"
-    ],
-    "*.{ts,tsx}": "eslint --cache --fix"
+    ]
   }
 }
