@@ -1,6 +1,15 @@
 {
   "header": {
     "siteName": "CarsFromSwitzerland",
-    "chooseLanguage": "Choose Language:"
+    "chooseLanguage": "Choose Language:",
+    "aboutUs": "About Us",
+    "howToBuy": {
+      "how": "How To Buy",
+      "rules": "Rules",
+      "faq": "Frequently Asked Questions"
+    },
+    "auctions": "Auctions",
+    "contact": "Contact",
+    "login": "Log In"
   }
 }

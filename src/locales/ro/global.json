@@ -1,6 +1,15 @@
 {
   "header": {
     "siteName": "MașiniDinElveția",
-    "chooseLanguage": "Alege limba:"
+    "chooseLanguage": "Alegeți limba:",
+    "aboutUs": "Despre noi",
+    "howToBuy": {
+      "how": "Cum să cumperi",
+      "rules": "Reguli",
+      "faq": "Întrebări frecvente"
+    },
+    "auctions": "Licitații",
+    "contact": "Contact",
+    "login": "Autentificare"
   }
 }

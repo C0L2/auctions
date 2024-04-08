@@ -5,36 +5,33 @@ const Header: React.FC = () => {
   const { t, i18n } = useTranslation('global')
 
   return (
-    <header className="border-b-2 border-gray-300 py-4 px-6 flex justify-between">
-      <div className="">
-        <h1 className="text-xl font-bold">
-          <a href="#" className="text-black no-underline">
-            {t('header.siteName')}
-          </a>
-        </h1>
-      </div>
-      <nav className="">
-        <ul className="flex">
-          <li className="mr-4">
-            <a href="#" className="text-black no-underline hover:underline">
-              About
-            </a>
-          </li>
-          <li className="mr-4">
-            <a href="#" className="text-black no-underline hover:underline">
-              News
-            </a>
+    <header className="text-primary py-4">
+      <nav className="flex justify-center gap-12">
+        <a href="#" className="font-semibold text-2xl">
+          {t('header.siteName')}
+        </a>
+        <ul className="flex items-center gap-12">
+          <li>
+            <a href="#">{t('header.aboutUs')}</a>
           </li>
           <li>
-            <a href="#" className="text-black no-underline hover:underline">
-              Contact
-            </a>
+            <a href="#">{t('header.howToBuy.how')}</a>
           </li>
+          <li>
+            <a href="#">{t('header.auctions')}</a>
+          </li>
+          <li>
+            <a href="#">{t('header.contact')}</a>
+          </li>
+          <li>
+            <a href="#">{t('header.login')}</a>
+          </li>
+          <div className="flex gap-1 text-sm">
+            <button onClick={() => i18n.changeLanguage('en')}>EN</button>
+            <button onClick={() => i18n.changeLanguage('ro')}>RO</button>
+            <button onClick={() => i18n.changeLanguage('ru')}>RU</button>
+          </div>
         </ul>
-        {t('header.chooseLanguage')}
-        <button onClick={() => i18n.changeLanguage('en')}>EN</button>
-        <button onClick={() => i18n.changeLanguage('ro')}>RO</button>
-        <button onClick={() => i18n.changeLanguage('ru')}>RU</button>
       </nav>
     </header>
   )
