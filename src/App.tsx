@@ -1,9 +1,10 @@
 import '@/assets/css/global.css'
+import Header from './components/Header'
 
 const App = () => {
   return (
     <>
-      <div className="">Auctions</div>
+      <Header />
     </>
   )
 }
