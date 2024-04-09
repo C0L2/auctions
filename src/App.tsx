@@ -1,12 +1,9 @@
 import '@/assets/css/global.css'
-import Header from './components/Header'
+import { RouterProvider } from 'react-router-dom'
+import { routers } from './routes/routes'
 
 const App = () => {
-  return (
-    <>
-      <Header />
-    </>
-  )
+  return <RouterProvider router={routers} />
 }
 
 export default App
