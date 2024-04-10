@@ -9,7 +9,7 @@
       "faq": "Frequently Asked Questions"
     },
     "auctions": "Auctions",
-    "contact": "Contact",
+    "contact": "Contact Us",
     "login": "Log In"
   },
   "about": {
@@ -21,5 +21,19 @@
     "p1": "We import cars directly we are not a used car dealership. Vehicles are bid from insurance companies all over Switzerland. Do not buy a pig in a poke. With us you can easily find out everything without hurry, which is usually a bad adviser. During purchase, if you guide by the first impression, you will not learn that this was a deceptive and unbiased assessment! Cars from Switzerland are in the best condition visually and technically. They are chosen from many different offers by us (applies to cars from ANNOUNCEMENTS, not those from AUCTIONS). Remember that price of a car consists not only of the price of its purchase! There are many possible, unplanned costs traps. We assure that you will avoid such surprises staying with us! Honestly, Earnestly and Specifically.",
     "p2": "We have our own insured transport and a lot of trusted drivers. By entrusting us with transport, we undertake to respect your property and take full responsibility for it. We cordially invite you to our office, where we will precisely write and accept the order for a particular car. Before arrival, please contact us by phone or email",
     "p3": "ALL RIGHTS TO THE CONTENT, GRAPHICAL FORM AND STYLE OF THE WEBISTE ARE RESERVED."
+  },
+  "rules": {
+    "auctions": {
+      "title": " AUCTIONS RULES AND SAFETY OF BUYING A CAR",
+      "rule1": "Register at our portal - ",
+      "rule2": "Choose a price and bet. None of the participants sees the amount of the other offers.",
+      "rule3": "The highest offer wins. The buyer gets information about it after the auction ends.",
+      "rule4": "The seller decides whether the highest offer satisfies him - he admits the car to the buyer or not. The decision takes place within 30 business days.",
+      "rule5": "Finalization of the transaction - payment by bank transfer. You can also pay by cash after prior contact.",
+      "rule6": "Delivery of the vehicle to the address indicated with a set of documents necessary for registration in Republic of Moldova (without excise tax).",
+      "register": "register",
+      "aditional_info": "If you have questions, see section",
+      "or": " or "
+    }
   }
 }

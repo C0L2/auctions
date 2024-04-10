@@ -21,5 +21,19 @@
     "p1": "Importăm mașini direct, nu suntem un dealer de mașini second-hand. Vehiculele sunt licitaționate de la companii de asigurări din întreaga Elveție. Nu cumpărați pisica în sac. Cu noi puteți afla totul fără grabă, care de obicei este un sfătuitor rău. În timpul achiziției, dacă vă ghidați după prima impresie, nu veți afla că aceasta a fost o evaluare păcălitoare și lipsită de părtinire! Mașinile din Elveția sunt în cea mai bună condiție vizuală și tehnică. Sunt alese din multe oferte diferite de noi (se aplică mașinilor din ANUNȚURI, nu celor de la LICITAȚII). Amintiți-vă că prețul unei mașini nu constă doar în prețul achiziției sale! Există multe capcane posibile și neprevăzute de costuri. Vă asigurăm că veți evita astfel de surprize rămânând cu noi! Cu onestitate, seriozitate și specificitate.",
     "p2": "Avem transport propriu asigurat și mulți șoferi de încredere. Încredințându-ne transportul, ne angajăm să respectăm proprietatea dumneavoastră și să ne asumăm întreaga responsabilitate pentru ea. Vă invităm cordial în biroul nostru, unde vom scrie și accepta precis comanda pentru un anumit automobil. Înainte de sosire, vă rugăm să ne contactați telefonic sau prin e-mail.",
     "p3": "TOATE DREPTURILE ASUPRA CONȚINUTULUI, FORMEI GRAFICE ȘI STILULUI SITE-ULUI SUNT REZERVATE."
+  },
+  "rules": {
+    "auctions": {
+      "title": "REGULI ALE LICITAȚIILOR ȘI SIGURANȚA CUMPRĂRII UNUI AUTOMOBIL",
+      "rule1": "Înregistrați-vă pe portalul nostru - ",
+      "rule2": "Alegeți un preț și pariați. Niciunul dintre participanți nu vede valoarea ofertelor celorlalți.",
+      "rule3": "Cea mai mare ofertă câștigă. Cumpărătorul primește informații despre aceasta după încheierea licitației.",
+      "rule4": "Vânzătorul decide dacă cea mai mare ofertă îi satisface - el admite sau nu mașina către cumpărător. Decizia se ia în termen de 30 de zile lucrătoare.",
+      "rule5": "Finalizarea tranzacției - plată prin transfer bancar. De asemenea, puteți plăti în numerar după contact prealabil.",
+      "rule6": "Livrarea vehiculului la adresa indicată cu un set de documente necesare pentru înregistrarea în Republica Moldova (fără accize).",
+      "register": "înregistrare",
+      "aditional_info": "Dacă aveți întrebări, consultați secțiunea",
+      "or": " sau "
+    }
   }
 }
