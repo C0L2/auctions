@@ -31,7 +31,10 @@ const Header: React.FC = () => {
                   <ChevronDown className="h-5" />
                 </p>
               </PopoverTrigger>
-              <PopoverContent className="flex flex-col p-3 max-w-60 text-primary">
+              <PopoverContent
+                className="flex flex-col p-3 max-w-60 text-primary"
+                onOpenAutoFocus={(e) => e.preventDefault()}
+              >
                 <NavLink to="/faq" className="justify-start">
                   <PopoverClose>{t('header.howToBuy.rules')}</PopoverClose>
                 </NavLink>
