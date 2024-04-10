@@ -11,5 +11,15 @@
     "auctions": "Licitații",
     "contact": "Contact",
     "login": "Autentificare"
+  },
+  "about": {
+    "question": {
+      "p1": "Doriți să cumpărați ",
+      "p2": "UN AUTOMOBIL BUN? ",
+      "p3": "Nu mai e o problemă! Rămâneți cu noi, vă vom ajuta cu onestitate și vă vom sfătui sincer."
+    },
+    "p1": "Importăm mașini direct, nu suntem un dealer de mașini second-hand. Vehiculele sunt licitaționate de la companii de asigurări din întreaga Elveție. Nu cumpărați pisica în sac. Cu noi puteți afla totul fără grabă, care de obicei este un sfătuitor rău. În timpul achiziției, dacă vă ghidați după prima impresie, nu veți afla că aceasta a fost o evaluare păcălitoare și lipsită de părtinire! Mașinile din Elveția sunt în cea mai bună condiție vizuală și tehnică. Sunt alese din multe oferte diferite de noi (se aplică mașinilor din ANUNȚURI, nu celor de la LICITAȚII). Amintiți-vă că prețul unei mașini nu constă doar în prețul achiziției sale! Există multe capcane posibile și neprevăzute de costuri. Vă asigurăm că veți evita astfel de surprize rămânând cu noi! Cu onestitate, seriozitate și specificitate.",
+    "p2": "Avem transport propriu asigurat și mulți șoferi de încredere. Încredințându-ne transportul, ne angajăm să respectăm proprietatea dumneavoastră și să ne asumăm întreaga responsabilitate pentru ea. Vă invităm cordial în biroul nostru, unde vom scrie și accepta precis comanda pentru un anumit automobil. Înainte de sosire, vă rugăm să ne contactați telefonic sau prin e-mail.",
+    "p3": "TOATE DREPTURILE ASUPRA CONȚINUTULUI, FORMEI GRAFICE ȘI STILULUI SITE-ULUI SUNT REZERVATE."
   }
 }
