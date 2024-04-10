@@ -1,8 +1,12 @@
+import { useTranslation } from 'react-i18next'
+
 const Footer = () => {
+  const { t } = useTranslation('global')
+
   return (
-    <footer className="text-primary mt-auto">
-      <div className="pt-6">
-        <div className="mb-6 flex justify-center gap-2">
+    <footer className="text-primary mt-auto border-t-2">
+      <div className="pt-2">
+        <div className="flex justify-center gap-1">
           <a
             href="#!"
             type="button"
@@ -10,7 +14,7 @@ const Footer = () => {
             data-twe-ripple-init
             data-twe-ripple-color="light"
           >
-            <span className="[&>svg]:h-5 [&>svg]:w-5">
+            <span className="[&>svg]:h-3 [&>svg]:w-3">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="currentColor"
@@ -28,7 +32,7 @@ const Footer = () => {
             data-twe-ripple-init
             data-twe-ripple-color="light"
           >
-            <span className="mx-auto [&>svg]:h-5 [&>svg]:w-5">
+            <span className="mx-auto [&>svg]:h-3 [&>svg]:w-3">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="currentColor"
@@ -46,7 +50,7 @@ const Footer = () => {
             data-twe-ripple-init
             data-twe-ripple-color="light"
           >
-            <span className="mx-auto [&>svg]:h-5 [&>svg]:w-5">
+            <span className="mx-auto [&>svg]:h-3 [&>svg]:w-3">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="currentColor"
@@ -64,7 +68,7 @@ const Footer = () => {
             data-twe-ripple-init
             data-twe-ripple-color="light"
           >
-            <span className="mx-auto [&>svg]:h-5 [&>svg]:w-5">
+            <span className="mx-auto [&>svg]:h-3 [&>svg]:w-3">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="currentColor"
@@ -82,7 +86,7 @@ const Footer = () => {
             data-twe-ripple-init
             data-twe-ripple-color="light"
           >
-            <span className="mx-auto [&>svg]:h-5 [&>svg]:w-5">
+            <span className="mx-auto [&>svg]:h-3 [&>svg]:w-3">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="currentColor"
@@ -100,7 +104,7 @@ const Footer = () => {
             data-twe-ripple-init
             data-twe-ripple-color="light"
           >
-            <span className="mx-auto [&>svg]:h-5 [&>svg]:w-5">
+            <span className="mx-auto [&>svg]:h-3 [&>svg]:w-3">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="currentColor"
@@ -113,9 +117,11 @@ const Footer = () => {
         </div>
       </div>
 
-      <div className="w-full bg-black/5 p-4 text-center">
-        © 2023 Copyright:
-        <a href="https://tw-elements.com/">TW Elements</a>
+      <div className="w-full p-2 text-center">
+        <span className="text-sm">© 2024 Copyright:</span>
+        <a href="https://tw-elements.com/" className="ml-2 text-md">
+          {t('header.siteName')}
+        </a>
       </div>
     </footer>
   )

@@ -3,6 +3,8 @@ import { useTranslation } from 'react-i18next'
 import { ChevronDown } from 'lucide-react'
 import { Popover, PopoverContent, PopoverTrigger } from './ui/popover'
 import { Button } from './ui/button'
+import { NavLink } from 'react-router-dom'
+import { PopoverClose } from '@radix-ui/react-popover'
 
 const Header: React.FC = () => {
   const { t, i18n } = useTranslation('global')
@@ -12,7 +14,7 @@ const Header: React.FC = () => {
   }
 
   return (
-    <header className="text-primary py-4">
+    <header className="text-primary py-4 border-b-2">
       <nav className="flex justify-center gap-16">
         <a href="/" className="font-semibold text-2xl">
           {t('header.siteName')}
@@ -24,29 +26,33 @@ const Header: React.FC = () => {
           <li>
             <Popover>
               <PopoverTrigger asChild>
-                <p className="flex items-center">
+                <p className="flex items-center cursor-pointer">
                   {t('header.howToBuy.how')}
                   <ChevronDown className="h-5" />
                 </p>
               </PopoverTrigger>
-              <PopoverContent className="flex flex-col p-1 max-w-56 text-primary">
-                <Button variant="link" className="justify-start">
-                  {t('header.howToBuy.rules')}
-                </Button>
-                <Button variant="link" className="mt-2 justify-start">
-                  {t('header.howToBuy.faq')}
-                </Button>
+              <PopoverContent className="flex flex-col p-3 max-w-60 text-primary">
+                <NavLink to="/faq" className="justify-start">
+                  <PopoverClose>{t('header.howToBuy.rules')}</PopoverClose>
+                </NavLink>
+                <NavLink
+                  to="/faq"
+                  onClick={() => {}}
+                  className="mt-2 justify-start"
+                >
+                  <PopoverClose>{t('header.howToBuy.faq')}</PopoverClose>
+                </NavLink>
               </PopoverContent>
             </Popover>
           </li>
           <li>
-            <a href="#">{t('header.auctions')}</a>
+            <a href="/auctions">{t('header.auctions')}</a>
           </li>
           <li>
-            <a href="#">{t('header.contact')}</a>
+            <a href="/contact-us">{t('header.contact')}</a>
           </li>
           <li>
-            <a href="#">{t('header.login')}</a>
+            <a href="/login">{t('header.login')}</a>
           </li>
           <div className="flex text-sm relative">
             {['en', 'ro', 'ru'].map((lang) => (
