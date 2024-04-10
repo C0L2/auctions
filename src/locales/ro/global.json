@@ -34,6 +34,20 @@
       "register": "înregistrare",
       "aditional_info": "Dacă aveți întrebări, consultați secțiunea",
       "or": " sau "
+    },
+    "announcements": {
+      "title": "ANUNȚURI - REGULI ȘI SIGURANȚA CUMPARĂRII UNUI AUTOMOBIL",
+      "rule1": "Selectați un automobil ",
+      "rule2": "Contactați-ne telefonic",
+      "message": "Vom evalua automobilul ales de dvs. în timpul inspecției și vă vom informa înainte de achiziție despre starea sa. Pentru vizionarea automobilului și neachiziționarea acestuia, prețul începe de la 0 CHF, în funcție de zona de amplasare."
+    },
+    "transport": {
+      "rule1": "transportul unui autoturism cu o cutie de viteze blocată, o roată ruptă, etc. +50 CHF",
+      "rule2": "transportul autoturismelor cu greutatea peste 2200 kg - prețul se negociază",
+      "rule3": "transportul cu autobuzul - prețul se negociază",
+      "rule4": "transportul extrem către nord, sud, estul Poloniei - prețul se negociază",
+      "rule5": "transportul în altă țară - prețul se negociază.",
+      "message": "Tariful de transport este fix, poate fi modificat în următoarele situații:"
     }
   }
 }

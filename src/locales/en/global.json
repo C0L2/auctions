@@ -34,6 +34,20 @@
       "register": "register",
       "aditional_info": "If you have questions, see section",
       "or": " or "
+    },
+    "announcements": {
+      "title": "ANNOUNCEMENTS - RULES AND SAFETY OF BUYING A CAR",
+      "rule1": "Select a car ",
+      "rule2": "Contact us by phone",
+      "message": "We will evaluate the car chosen by you during the inspection and inform you before the purchase about its condition. For watching the car and not buying the price starts from 0 CHF depending on the location area."
+    },
+    "transport": {
+      "rule1": "transport of a car with a locked gearbox, a broken wheel, etc. +50 CHF",
+      "rule2": "transport of cars over 2200 kg price to be negotiated",
+      "rule3": "bus transport - price to be negotiated",
+      "rule4": " transport extremely to the north, south, east of Poland - price to be negotiated",
+      "rule5": "transport to another country - price to be negotiated.",
+      "message": "The transport fee is fixed, it may change in following situations:"
     }
   }
 }
