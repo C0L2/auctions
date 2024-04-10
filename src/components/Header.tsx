@@ -14,7 +14,7 @@ const Header: React.FC = () => {
   }
 
   return (
-    <header className="text-primary py-4 border-b-2">
+    <header className="text-primary py-4 border-b-2 border-primary">
       <nav className="flex justify-center gap-16">
         <a href="/" className="font-semibold text-2xl">
           {t('header.siteName')}
@@ -35,7 +35,7 @@ const Header: React.FC = () => {
                 className="flex flex-col p-3 max-w-60 text-primary"
                 onOpenAutoFocus={(e) => e.preventDefault()}
               >
-                <NavLink to="/faq" className="justify-start">
+                <NavLink to="/rules" className="justify-start">
                   <PopoverClose>{t('header.howToBuy.rules')}</PopoverClose>
                 </NavLink>
                 <NavLink

@@ -42,6 +42,7 @@
       "message": "Vom evalua automobilul ales de dvs. în timpul inspecției și vă vom informa înainte de achiziție despre starea sa. Pentru vizionarea automobilului și neachiziționarea acestuia, prețul începe de la 0 CHF, în funcție de zona de amplasare."
     },
     "transport": {
+      "title": "TRANSPORT",
       "rule1": "transportul unui autoturism cu o cutie de viteze blocată, o roată ruptă, etc. +50 CHF",
       "rule2": "transportul autoturismelor cu greutatea peste 2200 kg - prețul se negociază",
       "rule3": "transportul cu autobuzul - prețul se negociază",

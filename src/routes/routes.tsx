@@ -5,6 +5,7 @@ import FAQ from '@/pages/FAQ'
 import Login from '@/pages/Login'
 import Auctions from '@/pages/Auctions'
 import Contact from '@/pages/Contact'
+import Rules from '@/pages/HowTo/Rules'
 
 export const routers = createBrowserRouter([
   {
@@ -21,6 +22,10 @@ export const routers = createBrowserRouter([
       {
         path: '/faq',
         element: <FAQ />,
+      },
+      {
+        path: '/rules',
+        element: <Rules />,
       },
       {
         path: '/login',

@@ -4,7 +4,7 @@ const Footer = () => {
   const { t } = useTranslation('global')
 
   return (
-    <footer className="text-primary mt-auto border-t-2">
+    <footer className="text-primary border-t-2 mt-12 border-primary">
       <div className="pt-2">
         <div className="flex justify-center gap-1">
           <a
