@@ -66,13 +66,24 @@
     "r6": "Mașina adjudecată la licitație ajunge la domiciliul clientului, cu un set complet de documente pentru înregistrarea în Polonia, fără taxe de acciză. Pentru a calcula costurile taxelor și transportului, folosim fila 'Calculator' - disponibilă pentru utilizatorii înregistrați și aprobați."
   },
   "contact": {
-    "placeholders": {
+    "labels": {
       "fullName": "Nume complet",
       "email": "Email",
       "phone": "Telefon",
       "subject": "Subiect",
       "message": "Mesaj"
     },
-    "send_btn_txt": "Trimite"
+    "placeholders": {
+      "fullName": "ex. Ion Popescu",
+      "email": "ex. ion@popescu.ro",
+      "phone": "ex. +40 5698 4002 3025",
+      "subject": "ex. Apel Managerial",
+      "message": "ex. Am nevoie ca un manager de vânzări să mă contacteze"
+    },
+    "send_btn_txt": "Trimite",
+    "question": {
+      "do_you": "Aveți întrebări pentru noi?",
+      "ask_us": "Scrieți-vă întrebările aici"
+    }
   }
 }

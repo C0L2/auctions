@@ -66,13 +66,24 @@
     "r6": "The auctioned vehicle goes to the customer's house, with a complete set of documents for registration in Poland, excise duty free. To calculate the costs of fees and transport, we use the tab Calculator - available for logged in and approved users."
   },
   "contact": {
-    "placeholders": {
+    "labels": {
       "fullName": "Full Name",
       "email": "Email",
       "phone": "Phone",
       "subject": "Subject",
       "message": "Message"
     },
-    "send_btn_txt": "Send"
+    "placeholders": {
+      "fullName": "ex. John Doe",
+      "email": "ex. john@doe.com",
+      "phone": "ex. +40 5698 4002 3025",
+      "subject": "ex. Manager Call",
+      "message": "ex. Need a sales manager to call me"
+    },
+    "send_btn_txt": "Send",
+    "question": {
+      "do_you": "Do you have question to us?",
+      "ask_us": "Write yur questions here"
+    }
   }
 }
