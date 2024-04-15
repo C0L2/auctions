@@ -64,5 +64,15 @@
     "r5": "Garanția de participare la licitație este o garanție rambursabilă fără dobândă, destinată protejării împotriva neputinței de a colecta mașina / mașinile adjudecate la licitație de către client. Ea se ridică la 3000 de zloți polonezi. Este returnabilă ori de câte ori clientul colectează și plătește mașina / mașinile adjudecate la licitație. Este confiscată în cazul neputinței de a colecta mașina adjudecată la licitație.",
     "q6": "Mașina merge la mine plătită? Ce costuri rămân?",
     "r6": "Mașina adjudecată la licitație ajunge la domiciliul clientului, cu un set complet de documente pentru înregistrarea în Polonia, fără taxe de acciză. Pentru a calcula costurile taxelor și transportului, folosim fila 'Calculator' - disponibilă pentru utilizatorii înregistrați și aprobați."
+  },
+  "contact": {
+    "placeholders": {
+      "fullName": "Nume complet",
+      "email": "Email",
+      "phone": "Telefon",
+      "subject": "Subiect",
+      "message": "Mesaj"
+    },
+    "send_btn_txt": "Trimite"
   }
 }

@@ -64,5 +64,15 @@
     "r5": "The bid bond is an interest-free returnable deposit, designed to protect against failure to collect the auctioned vehicle / vehicles by the customer. It amounts to PLN 3,000. It is returnable whenever the customer collects and pays for the auctioned vehicle / vehicles. Forfeited in the event of failure to collect the auctioned vehicle.",
     "q6": "Does the car go to me paid for? What costs remain?",
     "r6": "The auctioned vehicle goes to the customer's house, with a complete set of documents for registration in Poland, excise duty free. To calculate the costs of fees and transport, we use the tab Calculator - available for logged in and approved users."
+  },
+  "contact": {
+    "placeholders": {
+      "fullName": "Full Name",
+      "email": "Email",
+      "phone": "Phone",
+      "subject": "Subject",
+      "message": "Message"
+    },
+    "send_btn_txt": "Send"
   }
 }
