@@ -55,6 +55,14 @@
     "q1": "Why can't I see prices at auctions?",
     "r1": "Auctions from Swiss insurance companies are tenders. Nobody sees the prices offered by other bidders. After the end of the tender, the person submitting the highest bid receives the information about winning it.",
     "q2": "How do I know how much to bid on a given vehicle?",
-    "r2": "Each user independently decides and submits offers. You should use the prices from the secondary market, for example, Polish or German, remembering that cars from Switzerland are on average higher value than cars from other markets. In case of doubt, we offer assistance with the quote, please contact us."
+    "r2": "Each user independently decides and submits offers. You should use the prices from the secondary market, for example, Polish or German, remembering that cars from Switzerland are on average higher value than cars from other markets. In case of doubt, we offer assistance with the quote, please contact us.",
+    "q3": "I am looking for a specific car model from Switzerland. How can I buy it?",
+    "r3": "There are two options. The first - the purchase of a car from the auctions shown on home page, the second - buying a car from Swiss portals advertisements. In the case of an auction, the user submits bids for a given vehicle / vehicles. In order to bid, it is required to create an account on our portal and its activation by paying a refundable deposit. We support purchases from these portals: autoscout24.ch , tutti.ch, ricardo.ch. If you buy a car from the advertisement, select the appropriate vehicle / vehicles and contact us for advice or import valuation.",
+    "q4": "How long after winning the auction will I get the vehicle?",
+    "r4": "After winning the auction, the insurance company has up to 30 working days to grant the car (usually it decides within a week). After the car is awarded and the payment is made, it usually arrives at the customer's home within a three weeks.",
+    "q5": "What is a bid bond? How much is? Is it always returned?",
+    "r5": "The bid bond is an interest-free returnable deposit, designed to protect against failure to collect the auctioned vehicle / vehicles by the customer. It amounts to PLN 3,000. It is returnable whenever the customer collects and pays for the auctioned vehicle / vehicles. Forfeited in the event of failure to collect the auctioned vehicle.",
+    "q6": "Does the car go to me paid for? What costs remain?",
+    "r6": "The auctioned vehicle goes to the customer's house, with a complete set of documents for registration in Poland, excise duty free. To calculate the costs of fees and transport, we use the tab Calculator - available for logged in and approved users."
   }
 }

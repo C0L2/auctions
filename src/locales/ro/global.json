@@ -50,5 +50,19 @@
       "rule5": "transportul în altă țară - prețul se negociază.",
       "message": "Tariful de transport este fix, poate fi modificat în următoarele situații:"
     }
+  },
+  "faq": {
+    "q1": "De ce nu pot vedea prețurile la licitații?",
+    "r1": "Licitațiile de la companiile de asigurări elvețiene sunt licitații închise. Nimeni nu vede prețurile oferite de alți licitatori. După încheierea licitației, persoana care a depus cea mai mare ofertă primește informații despre câștigarea acesteia.",
+    "q2": "Cum știu cât să licitez pentru un anumit vehicul?",
+    "r2": "Fiecare utilizator decide și trimite oferte independent. Ar trebui să folosiți prețurile de pe piața secundară, de exemplu, poloneză sau germană, ținând cont că mașinile din Elveția au în medie o valoare mai mare decât mașinile de pe alte piețe. În caz de îndoială, oferim asistență cu oferta, vă rugăm să ne contactați.",
+    "q3": "Caut o anumită marcă de mașină din Elveția. Cum o pot cumpăra?",
+    "r3": "Există două opțiuni. Prima - achiziționarea unei mașini de la licitațiile afișate pe pagina principală, a doua - cumpărarea unei mașini din anunțurile portalurilor elvețiene. În cazul unei licitații, utilizatorul trimite oferte pentru un anumit vehicul / vehicule. Pentru a licita, este necesar să creați un cont pe portalul nostru și să-l activați prin plata unei garanții rambursabile. Noi susținem achizițiile de pe aceste portaluri: autoscout24.ch, tutti.ch, ricardo.ch. Dacă cumpărați o mașină din anunț, selectați vehiculul / vehiculele potrivite și contactați-ne pentru sfaturi sau evaluare de import.",
+    "q4": "Cât timp după câștigarea licitației voi primi vehiculul?",
+    "r4": "După câștigarea licitației, compania de asigurări are până la 30 de zile lucrătoare pentru a acorda mașina (de obicei, decide în termen de o săptămână). După ce mașina este acordată și plata este efectuată, de obicei, ajunge la domiciliul clientului în termen de trei săptămâni.",
+    "q5": "Ce este o garanție de participare la licitație? Cât costă? Este întotdeauna returnată?",
+    "r5": "Garanția de participare la licitație este o garanție rambursabilă fără dobândă, destinată protejării împotriva neputinței de a colecta mașina / mașinile adjudecate la licitație de către client. Ea se ridică la 3000 de zloți polonezi. Este returnabilă ori de câte ori clientul colectează și plătește mașina / mașinile adjudecate la licitație. Este confiscată în cazul neputinței de a colecta mașina adjudecată la licitație.",
+    "q6": "Mașina merge la mine plătită? Ce costuri rămân?",
+    "r6": "Mașina adjudecată la licitație ajunge la domiciliul clientului, cu un set complet de documente pentru înregistrarea în Polonia, fără taxe de acciză. Pentru a calcula costurile taxelor și transportului, folosim fila 'Calculator' - disponibilă pentru utilizatorii înregistrați și aprobați."
   }
 }

@@ -30,12 +30,27 @@ const FAQ = () => {
         </AccordionItem>
         <AccordionItem value="item-3">
           <AccordionTrigger className="text-primary">
-            Is it animated?
+            {t('faq.q3')}
           </AccordionTrigger>
-          <AccordionContent>
-            Yes. It&apos;s animated by defau'lt, but you can disable it if you
-            prefer.
-          </AccordionContent>
+          <AccordionContent>{t('faq.r3')}</AccordionContent>
+        </AccordionItem>
+        <AccordionItem value="item-4">
+          <AccordionTrigger className="text-primary">
+            {t('faq.q4')}
+          </AccordionTrigger>
+          <AccordionContent>{t('faq.r4')}</AccordionContent>
+        </AccordionItem>
+        <AccordionItem value="item-5">
+          <AccordionTrigger className="text-primary">
+            {t('faq.q5')}
+          </AccordionTrigger>
+          <AccordionContent>{t('faq.r5')}</AccordionContent>
+        </AccordionItem>
+        <AccordionItem value="item-4">
+          <AccordionTrigger className="text-primary">
+            {t('faq.q6')}
+          </AccordionTrigger>
+          <AccordionContent>{t('faq.r6')}</AccordionContent>
         </AccordionItem>
       </Accordion>
     </div>
