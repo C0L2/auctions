@@ -13,7 +13,7 @@ const AboutUs = () => {
       <h1 className="text-center text-primary text-2xl underline mt-5">
         About Us
       </h1>
-      <div className="max-w-[1000px] text-left text-sm mt-5 font-light">
+      <div className="w-full q1024:max-w-[1000px] text-left text-sm mt-5 font-light">
         <p>
           {t('about.question.p1')}{' '}
           <span className="text-primary font-semibold">

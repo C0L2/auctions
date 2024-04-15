@@ -3,7 +3,6 @@ import {
   Card,
   CardContent,
   CardDescription,
-  CardFooter,
   CardHeader,
   CardTitle,
 } from '@/components/ui/card'
@@ -17,8 +16,8 @@ import {
   FormItem,
   FormLabel,
   FormMessage,
-} from '../../components/ui/form'
-import { Textarea } from '../../components/ui/textarea'
+} from '@/components/ui/form'
+import { Textarea } from '@/components/ui/textarea'
 
 const Contact = () => {
   const { t } = useTranslation('global')
@@ -38,7 +37,10 @@ const Contact = () => {
         </CardHeader>
         <CardContent>
           <Form {...form}>
-            <form onSubmit={form.handleSubmit(onSubmit)}>
+            <form
+              onSubmit={form.handleSubmit(onSubmit)}
+              className="justify-end"
+            >
               <div className="text-primary space-y-5">
                 <div className="flex gap-2">
                   <FormField
@@ -124,13 +126,13 @@ const Contact = () => {
                     </FormItem>
                   )}
                 />
+                <div className="flex justify-end">
+                  <Button>{t('contact.send_btn_txt')}</Button>
+                </div>
               </div>
             </form>
           </Form>
         </CardContent>
-        <CardFooter className="flex justify-end">
-          <Button>{t('contact.send_btn_txt')}</Button>
-        </CardFooter>
       </Card>
     </>
   )
