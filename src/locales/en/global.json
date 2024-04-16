@@ -96,11 +96,12 @@
     },
     "reset_pswd": {
       "title": "Reset Password",
+      "pswd_not_match": "Passwords do not match",
       "btn": "Reset"
     },
     "register": {
-      "name": "Name",
-      "2Name": "Second Name",
+      "firstName": "First Name",
+      "secondaName": "Middle Name",
       "lastName": "Last Name",
       "email": "Email",
       "password": "Password",
@@ -108,16 +109,16 @@
       "phone": "Phone",
       "country": "Country",
       "city": "City",
-      "zip-code": "Zip Code",
+      "zip_code": "Zip Code",
       "str": "Street",
       "house_number": "House Number",
       "apartment_number": "Apartment Number",
-      "language": "Spoken Language",
+      "language": "Language",
       "btn": "Register"
     },
     "placeholders": {
       "name": "John",
-      "2Name": "Smith",
+      "secondaName": "Smith",
       "lastName": "Doe",
       "email": "john@doe.com",
       "password": "*******",
@@ -125,7 +126,7 @@
       "phone": "+373 99 999 999",
       "country": "Republic of Moldova",
       "city": "Chisinau",
-      "zip-code": "9999",
+      "zip_code": "9999",
       "str": "Broadway",
       "house_number": "504",
       "apartment_number": "23B",

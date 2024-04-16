@@ -8,7 +8,7 @@ import {
 } from '@/components/ui/card'
 import { Input } from '@/components/ui/input'
 import { useTranslation } from 'react-i18next'
-import { useContactUs } from './useContactUs'
+import { useContactUs } from './hooks/useContactUs'
 import {
   Form,
   FormControl,

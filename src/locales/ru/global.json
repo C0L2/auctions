@@ -96,11 +96,12 @@
     },
     "reset_pswd": {
       "title": "Сбросить пароль",
+      "pswd_not_match": "Пароли не совпадают",
       "btn": "Сбросить"
     },
     "register": {
-      "name": "Имя",
-      "2Name": "Второе Имя",
+      "firstName": "Имя",
+      "secondaName": "Второе Имя",
       "lastName": "Фамилия",
       "email": "Электронная почта",
       "password": "Пароль",
@@ -108,7 +109,7 @@
       "phone": "Телефон",
       "country": "Страна",
       "city": "Город",
-      "zip-code": "Почтовый индекс",
+      "zip_code": "Почтовый индекс",
       "str": "Улица",
       "house_number": "Номер дома",
       "apartment_number": "Номер квартиры",
@@ -117,7 +118,7 @@
     },
     "placeholders": {
       "name": "Иван",
-      "2Name": "Петров",
+      "secondaName": "Петров",
       "lastName": "Иванов",
       "email": "ivan@ivanov.ru",
       "password": "*******",
@@ -125,7 +126,7 @@
       "phone": "+373 99 999 999",
       "country": "Республика Молдова",
       "city": "Кишинев",
-      "zip-code": "9999",
+      "zip_code": "9999",
       "str": "Бродвей",
       "house_number": "504",
       "apartment_number": "23Б",

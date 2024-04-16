@@ -1,7 +1,7 @@
 import { zodResolver } from '@hookform/resolvers/zod'
 import { useForm } from 'react-hook-form'
 import { z } from 'zod'
-import { contactFormSchema } from './types'
+import { contactFormSchema } from '../types'
 
 export const useContactUs = () => {
   const form = useForm<z.infer<typeof contactFormSchema>>({
