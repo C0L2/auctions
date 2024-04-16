@@ -25,7 +25,7 @@ export const resetPasswordFormSchema = z
 export const registerFormSchema = z
   .object({
     firstName: z.string().min(2),
-    secondName: z.string().min(2).optional(),
+    secondName: z.string().optional(),
     lastName: z.string().min(2),
     email: z.string().email(),
     password: z
@@ -46,11 +46,11 @@ export const registerFormSchema = z
       }),
     phone: z.string().min(3),
     country: z.string().min(4),
-    city: z.string(),
-    zip_code: z.number().min(2).optional().nullable(),
-    str: z.string().min(2),
-    house_number: z.string(),
-    apartment_number: z.string(),
+    city: z.string().min(2),
+    zip_code: z.string().min(2).optional(),
+    str: z.string().min(2).min(2),
+    house_number: z.string().min(2),
+    apartment_number: z.string().min(2),
     language: z.string().min(2),
   })
   .refine((data) => data.password === data.repeatPassword, {

@@ -1,5 +1,5 @@
-import { useTranslation } from 'react-i18next'
-import { useResetPassword } from '../hooks/useResetPassword'
+import { Card, CardDescription, CardHeader } from '@/components/ui/card'
+import { Input } from '@/components/ui/input'
 import {
   Form,
   FormControl,
@@ -8,19 +8,19 @@ import {
   FormLabel,
   FormMessage,
 } from '@/components/ui/form'
-import { Card, CardDescription, CardHeader } from '@/components/ui/card'
-import { Input } from '@/components/ui/input'
-import { Link } from 'react-router-dom'
+import { useLogin } from '../hooks/useLogin'
 import { Button } from '@/components/ui/button'
-import { Separator } from '@/components/ui/separator'
+import { useTranslation } from 'react-i18next'
+import { Link } from 'react-router-dom'
+// import { Separator } from '@/components/ui/separator'
 
-const ForgotPassword = () => {
+const Authorization = () => {
   const { t } = useTranslation('global')
-  const { form, onSubmit } = useResetPassword()
+  const { form, onSubmit } = useLogin()
   return (
     <>
       <h1 className="text-center text-primary text-2xl underline mt-5 mb-5">
-        {t('auth.reset_pswd.title')}
+        {t('auth.login.title')}
       </h1>
       <Card className="p-5 w-full">
         <CardHeader>
@@ -31,7 +31,7 @@ const ForgotPassword = () => {
             <div className="flex gap-2">
               <FormField
                 control={form.control}
-                name="password"
+                name="email"
                 render={({ field }) => (
                   <FormItem className="mb-5 w-full">
                     <FormLabel className="text-primary">
@@ -49,7 +49,7 @@ const ForgotPassword = () => {
               />
               <FormField
                 control={form.control}
-                name="confirmPassword"
+                name="password"
                 render={({ field }) => (
                   <FormItem className="w-full">
                     <FormLabel className="text-primary">
@@ -67,17 +67,17 @@ const ForgotPassword = () => {
               />
             </div>
             <div className="flex mb-3 w-full justify-end space-x-2">
-              <Link
+              {/*  <Link
                 className="text-sm text-primary hover:underline"
                 type="button"
-                to="/authorization"
+                to="/forgot-password"
               >
-                {t('auth.login.log_in')}
+                {t('auth.reset_pswd.title')}
               </Link>
               <Separator
                 orientation="vertical"
                 className="h-5 w-[2px] bg-primary/80"
-              />
+              /> */}
               <Link
                 className="text-sm text-primary hover:underline"
                 type="button"
@@ -87,7 +87,7 @@ const ForgotPassword = () => {
               </Link>
             </div>
             <div className="flex justify-end">
-              <Button type="submit">{t('auth.reset_pswd.btn')}</Button>
+              <Button type="submit">{t('auth.login.log_in')}</Button>
             </div>
           </form>
         </Form>
@@ -96,4 +96,4 @@ const ForgotPassword = () => {
   )
 }
 
-export default ForgotPassword
+export default Authorization

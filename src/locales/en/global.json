@@ -102,8 +102,10 @@
       "btn": "Reset"
     },
     "register": {
+      "title": "Register New Account",
+      "atention": "We want to inform you that after you have registered on the website, the administrator will decide whether to allow your account access to the platform or not. For more details you can contact the site administration",
       "firstName": "First Name",
-      "secondaName": "Middle Name",
+      "secondName": "Middle Name",
       "lastName": "Last Name",
       "email": "Email",
       "password": "Password",
@@ -120,7 +122,7 @@
     },
     "placeholders": {
       "name": "John",
-      "secondaName": "Smith",
+      "secondName": "Smith",
       "lastName": "Doe",
       "email": "john@doe.com",
       "password": "*******",

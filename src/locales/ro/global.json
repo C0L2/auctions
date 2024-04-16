@@ -89,7 +89,7 @@
   "auth": {
     "login": {
       "title": "Autentificare Cont",
-      "atention": "Vă puteți autentifica numai dacă administratorul site-ului vă confirmă contul",
+      "atention": "Vă puteți autentifica numai dacă administratorul site-ului va confirmat contul",
       "email": "Email",
       "pswd": "Parolă",
       "log_in": "Autentificare",
@@ -102,8 +102,10 @@
       "btn": "Resetare"
     },
     "register": {
+      "title": "Înregistrați un cont nou",
+      "atention": "Dorim să vă informăm că după ce vă înregistrați pe site, administratorul va decide dacă vă permite sau nu accesul contului dumneavoastră la platformă. Pentru informatii mai detaliate, puteti contacta administratia site-ului.",
       "firstName": "Nume",
-      "secondaName": "Prenume",
+      "secondName": "Al doilea nume",
       "lastName": "Nume de familie",
       "email": "Email",
       "password": "Parolă",
@@ -120,8 +122,8 @@
     },
     "placeholders": {
       "name": "Ion",
-      "secondaName": "Popescu",
-      "lastName": "Doe",
+      "secondName": "Alexandru",
+      "lastName": "Popescu",
       "email": "ion@popescu.ro",
       "password": "*******",
       "repeatPassword": "*******",
