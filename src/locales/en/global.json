@@ -85,5 +85,51 @@
       "do_you": "Do you have question to us?",
       "ask_us": "Write yur questions here"
     }
+  },
+  "auth": {
+    "login": {
+      "email": "Email",
+      "pswd": "Password",
+      "log_in": "Log In",
+      "don't_have_account": "Don't have an account yet?",
+      "reg_now": "Register now"
+    },
+    "reset_pswd": {
+      "title": "Reset Password",
+      "btn": "Reset"
+    },
+    "register": {
+      "name": "Name",
+      "2Name": "Second Name",
+      "lastName": "Last Name",
+      "email": "Email",
+      "password": "Password",
+      "repeatPassword": "Repeat Password",
+      "phone": "Phone",
+      "country": "Country",
+      "city": "City",
+      "zip-code": "Zip Code",
+      "str": "Street",
+      "house_number": "House Number",
+      "apartment_number": "Apartment Number",
+      "language": "Spoken Language",
+      "btn": "Register"
+    },
+    "placeholders": {
+      "name": "John",
+      "2Name": "Smith",
+      "lastName": "Doe",
+      "email": "john@doe.com",
+      "password": "*******",
+      "repeatPassword": "*******",
+      "phone": "+373 99 999 999",
+      "country": "Republic of Moldova",
+      "city": "Chisinau",
+      "zip-code": "9999",
+      "str": "Broadway",
+      "house_number": "504",
+      "apartment_number": "23B",
+      "language": "English"
+    }
   }
 }

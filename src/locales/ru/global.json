@@ -85,5 +85,51 @@
       "do_you": "У вас есть вопросы к нам?",
       "ask_us": "Напишите ваши вопросы здесь"
     }
+  },
+  "auth": {
+    "login": {
+      "email": "Электронная почта",
+      "pswd": "Пароль",
+      "log_in": "Войти",
+      "don't_have_account": "Еще нет аккаунта?",
+      "reg_now": "Зарегистрируйтесь сейчас"
+    },
+    "reset_pswd": {
+      "title": "Сбросить пароль",
+      "btn": "Сбросить"
+    },
+    "register": {
+      "name": "Имя",
+      "2Name": "Второе Имя",
+      "lastName": "Фамилия",
+      "email": "Электронная почта",
+      "password": "Пароль",
+      "repeatPassword": "Повторите пароль",
+      "phone": "Телефон",
+      "country": "Страна",
+      "city": "Город",
+      "zip-code": "Почтовый индекс",
+      "str": "Улица",
+      "house_number": "Номер дома",
+      "apartment_number": "Номер квартиры",
+      "language": "Язык",
+      "btn": "Зарегистрироваться"
+    },
+    "placeholders": {
+      "name": "Иван",
+      "2Name": "Петров",
+      "lastName": "Иванов",
+      "email": "ivan@ivanov.ru",
+      "password": "*******",
+      "repeatPassword": "*******",
+      "phone": "+373 99 999 999",
+      "country": "Республика Молдова",
+      "city": "Кишинев",
+      "zip-code": "9999",
+      "str": "Бродвей",
+      "house_number": "504",
+      "apartment_number": "23Б",
+      "language": "Английский"
+    }
   }
 }

@@ -85,5 +85,51 @@
       "do_you": "Aveți întrebări pentru noi?",
       "ask_us": "Scrieți-vă întrebările aici"
     }
+  },
+  "auth": {
+    "login": {
+      "email": "Email",
+      "pswd": "Parolă",
+      "log_in": "Autentificare",
+      "don't_have_account": "Nu ai încă un cont?",
+      "reg_now": "Înregistrează-te acum"
+    },
+    "reset_pswd": {
+      "title": "Resetare Parolă",
+      "btn": "Resetare"
+    },
+    "register": {
+      "name": "Nume",
+      "2Name": "Numele de mijloc",
+      "lastName": "Prenume",
+      "email": "Email",
+      "password": "Parolă",
+      "repeatPassword": "Repetă Parola",
+      "phone": "Telefon",
+      "country": "Țară",
+      "city": "Oraș",
+      "zip-code": "Cod poștal",
+      "str": "Stradă",
+      "house_number": "Numărul casei",
+      "apartment_number": "Numărul apartamentului",
+      "language": "Limba vorbită",
+      "btn": "Înregistrare"
+    },
+    "placeholders": {
+      "name": "Ion",
+      "2Name": "Popescu",
+      "lastName": "Doe",
+      "email": "ion@popescu.ro",
+      "password": "*******",
+      "repeatPassword": "*******",
+      "phone": "+373 99 999 999",
+      "country": "Republica Moldova",
+      "city": "Chișinău",
+      "zip-code": "9999",
+      "str": "Bulevardul",
+      "house_number": "504",
+      "apartment_number": "23B",
+      "language": "Engleză"
+    }
   }
 }
