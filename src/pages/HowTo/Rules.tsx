@@ -14,7 +14,10 @@ const Rules = () => {
         <ol className="list-decimal">
           <li className="mb-2">
             {t('rules.auctions.rule1')}
-            <a href="/login" className="ml-2 text-primary font-semibold">
+            <a
+              href="/authorization"
+              className="ml-2 text-primary font-semibold"
+            >
               {t('rules.auctions.register')}
             </a>
           </li>

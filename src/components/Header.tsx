@@ -55,7 +55,7 @@ const Header: React.FC = () => {
             <a href="/contact-us">{t('header.contact')}</a>
           </li>
           <li>
-            <a href="/login">{t('header.login')}</a>
+            <a href="/authorization">{t('header.login')}</a>
           </li>
           <div className="flex text-sm relative">
             {['en', 'ro', 'ru'].map((lang) => (
