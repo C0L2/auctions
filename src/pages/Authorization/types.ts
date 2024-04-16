@@ -7,9 +7,10 @@ export const loginFormSchema = z.object({
     .string()
     .min(6, 'The password must be at least 6 characters long.')
     .max(32, 'The password must be a maximum of 32 characters.')
-    .regex(
-      /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[!@#$%&*-])[A- Za-z\d!@#$%&*-]{6,}$/,
-    ),
+    .regex(new RegExp('^(?=.*?[A-Z])(?=.*?[a-z])(?=.*?[0-9]).{8,}$'), {
+      message:
+        'Password must be at least 8 characters and contain an uppercase letter, lowercase letter, and number',
+    }),
 })
 
 export const resetPasswordFormSchema = z
@@ -31,16 +32,18 @@ export const registerFormSchema = z
       .string()
       .min(6, 'The password must be at least 6 characters long.')
       .max(32, 'The password must be a maximum of 32 characters.')
-      .regex(
-        /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[!@#$%&*-])[A- Za-z\d!@#$%&*-]{6,}$/,
-      ),
+      .regex(new RegExp('^(?=.*?[A-Z])(?=.*?[a-z])(?=.*?[0-9]).{8,}$'), {
+        message:
+          'Password must be at least 8 characters and contain an uppercase letter, lowercase letter, and number',
+      }),
     repeatPassword: z
       .string()
       .min(6, 'The password must be at least 6 characters long.')
       .max(32, 'The password must be a maximum of 32 characters.')
-      .regex(
-        /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[!@#$%&*-])[A- Za-z\d!@#$%&*-]{6,}$/,
-      ),
+      .regex(new RegExp('^(?=.*?[A-Z])(?=.*?[a-z])(?=.*?[0-9]).{8,}$'), {
+        message:
+          'Password must be at least 8 characters and contain an uppercase letter, lowercase letter, and number',
+      }),
     phone: z.string().min(3),
     country: z.string().min(4),
     city: z.string(),

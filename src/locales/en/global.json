@@ -88,6 +88,8 @@
   },
   "auth": {
     "login": {
+      "title": "Log In Account",
+      "atention": "You can login only if site admin confirmed your account",
       "email": "Email",
       "pswd": "Password",
       "log_in": "Log In",

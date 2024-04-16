@@ -19,7 +19,7 @@ const Header: React.FC = () => {
         <a href="/" className="font-semibold text-2xl">
           {t('header.siteName')}
         </a>
-        <ul className="flex items-center gap-12">
+        <ul className="hidden q1024:flex q1024:items-center q1024:gap-12">
           <li>
             <a href="/about-us">{t('header.aboutUs')}</a>
           </li>

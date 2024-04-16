@@ -88,6 +88,8 @@
   },
   "auth": {
     "login": {
+      "title": "Autentificare Cont",
+      "atention": "Vă puteți autentifica numai dacă administratorul site-ului vă confirmă contul",
       "email": "Email",
       "pswd": "Parolă",
       "log_in": "Autentificare",
