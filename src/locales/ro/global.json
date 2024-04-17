@@ -136,5 +136,23 @@
       "apartment_number": "23B",
       "language": "Engleză"
     }
+  },
+  "auctionItem": {
+    "info": {
+      "firstReg": "Prima Înregistrare: ",
+      "mileage": "Kilometraj: ",
+      "refNumber": "Număr de Referință: ",
+      "endOfAuction": "Sfârșitul Licitației: ",
+      "endsIn": "Se Încheie în:",
+      "ended": "!S-A ÎNCHEIAT!"
+    },
+    "btns": {
+      "more": "Mai multe detalii",
+      "addToObserved": "Adaugă la Observate"
+    },
+    "hover": {
+      "addToObservedNotLoggedIn": "Dorești să adaugi la Observate?",
+      "register!": "Înregistrează-te!"
+    }
   }
 }

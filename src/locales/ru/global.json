@@ -136,5 +136,23 @@
       "apartment_number": "23Б",
       "language": "Английский"
     }
+  },
+  "auctionItem": {
+    "info": {
+      "firstReg": "Первая Регистрация: ",
+      "mileage": "Пробег: ",
+      "refNumber": "Номер Ссылки: ",
+      "endOfAuction": "Конец Аукциона: ",
+      "endsIn": "Заканчивается через:",
+      "ended": "!ЗАВЕРШЕНО!"
+    },
+    "btns": {
+      "more": "Больше информации",
+      "addToObserved": "Добавить в Наблюдаемые"
+    },
+    "hover": {
+      "addToObservedNotLoggedIn": "Хотите добавить в Наблюдаемые?",
+      "register!": "Зарегистрируйтесь!"
+    }
   }
 }

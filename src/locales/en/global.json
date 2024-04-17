@@ -136,5 +136,23 @@
       "apartment_number": "23B",
       "language": "English"
     }
+  },
+  "auctionItem": {
+    "info": {
+      "firstReg": "Frist Registration: ",
+      "mileage": "Mileage: ",
+      "refNumber": "Reference Number: ",
+      "endOfAuction": "End of Auction: ",
+      "endsIn": "Ends In:",
+      "ended": "!ENDED!"
+    },
+    "btns": {
+      "more": "More details",
+      "addToObserved": "Add to Observed"
+    },
+    "hover": {
+      "addToObservedNotLoggedIn": "Want to add to Observed?",
+      "register!": "Register!"
+    }
   }
 }
