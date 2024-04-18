@@ -37,7 +37,7 @@ const DoubleButton = ({
       <Link to={`/auctions/${referenceNumber}`}>
         <Button
           onClick={secondFunction}
-          className="h-auto rounded-bl-none rounded-tl-none max-w-[150px] whitespace-normal break-normal"
+          className="h-full rounded-bl-none rounded-tl-none max-w-[150px] whitespace-normal break-normal"
         >
           {t('auctionItem.btns.more')}
         </Button>
