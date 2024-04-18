@@ -5,12 +5,14 @@ import { Popover, PopoverContent, PopoverTrigger } from './ui/popover'
 import { Button } from './ui/button'
 import { NavLink } from 'react-router-dom'
 import { PopoverClose } from '@radix-ui/react-popover'
+import { changeLanguage, getCurrentLanguage } from '../locales/i18n'
 
 const Header: React.FC = () => {
-  const { t, i18n } = useTranslation('global')
+  const { t } = useTranslation('global')
+  const currentLanguage = getCurrentLanguage()
 
-  const changeLanguage = (lang: string) => {
-    i18n.changeLanguage(lang)
+  const handleLanguageChange = (lang: string) => {
+    changeLanguage(lang)
   }
 
   return (
@@ -62,10 +64,10 @@ const Header: React.FC = () => {
               <Button
                 variant="link"
                 key={lang}
-                onClick={() => changeLanguage(lang)}
+                onClick={() => handleLanguageChange(lang)}
                 className={
-                  i18n.language === lang ||
-                  (i18n.language === 'auto' && lang === 'en')
+                  currentLanguage === lang ||
+                  (currentLanguage === 'auto' && lang === 'en')
                     ? 'underline p-1'
                     : 'p-1'
                 }
