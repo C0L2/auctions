@@ -153,6 +153,27 @@
     "hover": {
       "addToObservedNotLoggedIn": "Dorești să adaugi la Observate?",
       "register!": "Înregistrează-te!"
+    },
+    "search": {
+      "items": {
+        "from": "De la",
+        "to": "La",
+        "by_phrase": "Căutare după frază"
+      },
+      "btn": "Căutare"
+    },
+    "placeholders": {
+      "from_mileage": "ex. 0",
+      "to_mileage": "ex. 200 000",
+      "from_y": "ex. 1990",
+      "to_y": "ex. 2024",
+      "phrase": "ex. Audi 2018"
+    },
+    "labels": {
+      "milleage": "Kilometraj",
+      "manufactured_year": "Anul fabricației",
+      "by_phrase": "Căutare după frază",
+      "hover": "Căutați un model exotic sau sunteți interesat de echipamentul suplimentar special? Introduceți textul aici."
     }
   }
 }

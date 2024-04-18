@@ -153,6 +153,27 @@
     "hover": {
       "addToObservedNotLoggedIn": "Want to add to Observed?",
       "register!": "Register!"
+    },
+    "search": {
+      "items": {
+        "from": "From",
+        "to": "To",
+        "by_phrase": "Search by phrase"
+      },
+      "btn": "Search"
+    },
+    "placeholders": {
+      "from_mileage": "ex. 0",
+      "to_mileage": "ex. 200 000",
+      "from_y": "ex. 1990",
+      "to_y": "ex. 2024",
+      "phrase": "ex. Audi 2018"
+    },
+    "labels": {
+      "milleage": "Milleage",
+      "manufactured_year": "Manufactured year",
+      "by_phrase": "Search by phrase",
+      "hover": "Loking for some exotic model or interested in special aditional equipment? Place that text here."
     }
   }
 }
