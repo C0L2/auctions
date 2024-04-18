@@ -1,4 +1,4 @@
-import { createBrowserRouter } from 'react-router-dom'
+import { Navigate, createBrowserRouter } from 'react-router-dom'
 import AboutUs from '@/pages/AboutUs'
 import { Layout } from '@/layouts/Layout'
 import Authorization from '@/pages/Authorization/Login'
@@ -8,6 +8,7 @@ import Rules from '@/pages/HowTo/Rules'
 import FAQ from '@/pages/HowTo/FAQ'
 import Registration from '@/pages/Authorization/Registration'
 import ForgotPassword from '@/pages/Authorization/ForgotPassword'
+import AuctionItemDetails from '../pages/AuctionItemDetails'
 
 export const routers = createBrowserRouter([
   {
@@ -46,8 +47,16 @@ export const routers = createBrowserRouter([
         element: <Auctions />,
       },
       {
+        path: '/auctions/:id',
+        element: <AuctionItemDetails />,
+      },
+      {
         path: '/contact-us',
         element: <Contact />,
+      },
+      {
+        path: '*',
+        element: <Navigate to="/" />,
       },
     ],
   },

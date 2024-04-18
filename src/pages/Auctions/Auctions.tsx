@@ -8,7 +8,7 @@ const Auctions = () => {
 
   return (
     <>
-      <PageName pageTitle={t('auth.reset_pswd.title')} />
+      <PageName pageTitle={t('header.auctions')} />
       <div className="space-y-2 mt-5">
         {auctionsMockItems.length > 0 &&
           auctionsMockItems.map((item, index) => (
@@ -19,6 +19,7 @@ const Auctions = () => {
               firstReg={item.firstReg}
               mileage={item.milleage}
               referenceNumber={item.referenceNumber}
+              endOfAuction={item.endOfAuction}
             />
           ))}
       </div>
