@@ -1,15 +1,14 @@
 import AuctionCard from './components/AuctionCard'
 import { auctionsMockItems } from '../../mock-data/data'
 import { useTranslation } from 'react-i18next'
+import { PageName } from '@/components/PageName'
 
 const Auctions = () => {
   const { t } = useTranslation('global')
 
   return (
     <>
-      <h1 className="text-center text-primary text-2xl underline mt-5 mb-5 object-cover">
-        {t('auth.reset_pswd.title')}
-      </h1>
+      <PageName pageTitle={t('auth.reset_pswd.title')} />
       <div className="space-y-2 mt-5">
         {auctionsMockItems.length > 0 &&
           auctionsMockItems.map((item, index) => (

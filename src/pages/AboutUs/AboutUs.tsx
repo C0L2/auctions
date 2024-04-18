@@ -1,4 +1,5 @@
 import { useTranslation } from 'react-i18next'
+import { PageName } from '@/components/PageName'
 
 const AboutUs = () => {
   const { t } = useTranslation('global')
@@ -10,9 +11,7 @@ const AboutUs = () => {
         alt="Transporter Image"
         className="object-cover h-80 w-full rounded mt-5"
       />
-      <h1 className="text-center text-primary text-2xl underline mt-5">
-        About Us
-      </h1>
+      <PageName pageTitle={t('header.aboutUs')} />
       <div className="w-full q1024:max-w-[1000px] text-left text-sm mt-5 font-light">
         <p>
           {t('about.question.p1')}{' '}

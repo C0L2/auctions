@@ -18,6 +18,7 @@ import {
   FormMessage,
 } from '@/components/ui/form'
 import { Textarea } from '@/components/ui/textarea'
+import { PageName } from '../../components/PageName'
 
 const Contact = () => {
   const { t } = useTranslation('global')
@@ -25,9 +26,7 @@ const Contact = () => {
 
   return (
     <>
-      <h1 className="text-center text-primary text-2xl underline mt-5">
-        {t('header.contact')}
-      </h1>
+      <PageName pageTitle={t('header.contact')} />
       <Card className="mt-5 p-5">
         <CardHeader>
           <CardTitle className="text-primary">

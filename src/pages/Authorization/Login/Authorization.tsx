@@ -12,16 +12,14 @@ import { useLogin } from '../hooks/useLogin'
 import { Button } from '@/components/ui/button'
 import { useTranslation } from 'react-i18next'
 import { Link } from 'react-router-dom'
-// import { Separator } from '@/components/ui/separator'
+import { PageName } from '@/components/PageName'
 
 const Authorization = () => {
   const { t } = useTranslation('global')
   const { form, onSubmit } = useLogin()
   return (
     <>
-      <h1 className="text-center text-primary text-2xl underline mt-5 mb-5">
-        {t('auth.login.title')}
-      </h1>
+      <PageName pageTitle={t('auth.login.title')} />
       <Card className="p-5 w-full">
         <CardHeader>
           <CardDescription>{t('auth.login.atention')}</CardDescription>

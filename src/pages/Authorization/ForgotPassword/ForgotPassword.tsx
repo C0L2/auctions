@@ -13,15 +13,14 @@ import { Input } from '@/components/ui/input'
 import { Link } from 'react-router-dom'
 import { Button } from '@/components/ui/button'
 import { Separator } from '@/components/ui/separator'
+import { PageName } from '@/components/PageName'
 
 const ForgotPassword = () => {
   const { t } = useTranslation('global')
   const { form, onSubmit } = useResetPassword()
   return (
     <>
-      <h1 className="text-center text-primary text-2xl underline mt-5 mb-5">
-        {t('auth.reset_pswd.title')}
-      </h1>
+      <PageName pageTitle={t('auth.reset_pswd.title')} />
       <Card className="p-5 w-full">
         <CardHeader>
           <CardDescription>{t('auth.login.atention')}</CardDescription>

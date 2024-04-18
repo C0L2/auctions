@@ -12,16 +12,14 @@ import { Button } from '@/components/ui/button'
 import { useTranslation } from 'react-i18next'
 import { Link } from 'react-router-dom'
 import { useRegistration } from '../hooks/useRegistration'
-// import { Separator } from '../../../components/ui/separator'
+import { PageName } from '@/components/PageName'
 
 const Registration = () => {
   const { t } = useTranslation('global')
   const { form, onSubmit } = useRegistration()
   return (
     <div className="w-full q1024:max-w-[1000px]">
-      <h1 className="text-center text-primary text-2xl underline mt-5">
-        {t('auth.register.title')}
-      </h1>
+      <PageName pageTitle={t('auth.register.title')} />
       <Card className="mt-5 p-5 w-full">
         <CardHeader>
           <CardDescription>{t('auth.register.atention')}</CardDescription>

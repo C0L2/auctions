@@ -1,11 +1,13 @@
 import { useTranslation } from 'react-i18next'
-import { Separator } from '../../components/ui/separator'
+import { Separator } from '@/components/ui/separator'
+import { PageName } from '@/components/PageName'
 
 const Rules = () => {
   const { t } = useTranslation('global')
 
   return (
     <div className="max-w-[1000px]">
+      <PageName pageTitle={t('header.howToBuy.how')} />
       <h1 className="mt-5 font-semibold text-primary">
         {t('rules.auctions.title')}
       </h1>

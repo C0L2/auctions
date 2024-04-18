@@ -5,12 +5,14 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from '@/components/ui/accordion'
+import { PageName } from '../../components/PageName'
 
 const FAQ = () => {
   const { t } = useTranslation('global')
 
   return (
-    <div>
+    <>
+      <PageName pageTitle={t('header.howToBuy.faq')} />
       <Accordion
         type="multiple"
         className="max-w-[990px] mt-5"
@@ -53,7 +55,7 @@ const FAQ = () => {
           <AccordionContent>{t('faq.r6')}</AccordionContent>
         </AccordionItem>
       </Accordion>
-    </div>
+    </>
   )
 }
 
