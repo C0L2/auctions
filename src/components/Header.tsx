@@ -16,10 +16,10 @@ const Header: React.FC = () => {
   }
 
   return (
-    <header className="bg-primary/30 text-primary py-4 border-b-2 border-primary">
+    <header className="bg-header_footer text-white py-4 border-b-2 border-primary">
       <nav className="flex justify-center gap-16">
         <a href="/" className="font-semibold text-2xl">
-          {t('header.siteName')}
+          <img src="./src/assets/images/logo.png" className="h-10" />
         </a>
         <ul className="hidden q1024:flex q1024:items-center q1024:gap-12">
           <li>
@@ -59,7 +59,7 @@ const Header: React.FC = () => {
           <li>
             <a href="/authorization">{t('header.login')}</a>
           </li>
-          <div className="flex text-sm relative">
+          <div className="flex text-sm relative ">
             {['en', 'ro', 'ru'].map((lang) => (
               <Button
                 variant="link"
@@ -68,8 +68,8 @@ const Header: React.FC = () => {
                 className={
                   currentLanguage === lang ||
                   (currentLanguage === 'auto' && lang === 'en')
-                    ? 'underline p-1'
-                    : 'p-1'
+                    ? 'underline p-1 text-white'
+                    : 'p-1 text-white'
                 }
               >
                 {lang.toUpperCase()}

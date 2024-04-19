@@ -15,7 +15,7 @@ const AboutUs = () => {
       <div className="w-full q1024:max-w-[1000px] text-left text-sm mt-5 font-light">
         <p>
           {t('about.question.p1')}{' '}
-          <span className="text-primary font-semibold">
+          <span className="text-accent font-semibold">
             {t('about.question.p2')}
           </span>{' '}
           {t('about.question.p3')}
@@ -24,7 +24,7 @@ const AboutUs = () => {
         <p>{t('about.p1')}</p>
         <br />
         <p>{t('about.p2')}</p>
-        <p className="mt-5 text-primary font-semibold">{t('about.p3')}</p>
+        <p className="mt-5 text-accent font-semibold">{t('about.p3')}</p>
       </div>
     </>
   )
