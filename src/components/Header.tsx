@@ -16,7 +16,7 @@ const Header: React.FC = () => {
   }
 
   return (
-    <header className="text-primary py-4 border-b-2 border-primary">
+    <header className="bg-primary/30 text-primary py-4 border-b-2 border-primary">
       <nav className="flex justify-center gap-16">
         <a href="/" className="font-semibold text-2xl">
           {t('header.siteName')}

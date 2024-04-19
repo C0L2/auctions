@@ -11,7 +11,7 @@ const Auctions = () => {
     <>
       <PageName pageTitle={t('header.auctions')} />
       <Search />
-      <div className="space-y-2 mt-5">
+      <div className="flex flex-col space-y-2 mt-5">
         {auctionsMockItems.length > 0 &&
           auctionsMockItems.map((item, index) => (
             <AuctionCard

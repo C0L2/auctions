@@ -54,6 +54,6 @@
     @apply border-border;
   }
   body {
-    @apply flex justify-center bg-background;
+    @apply bg-background;
   }
 }
