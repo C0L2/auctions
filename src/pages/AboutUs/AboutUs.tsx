@@ -7,9 +7,9 @@ const AboutUs = () => {
   return (
     <>
       <img
-        src="../src/assets/images/transporter.jpg"
+        src="../src/assets/images/car.jpg"
         alt="Transporter Image"
-        className="object-cover h-80 w-full rounded mt-5"
+        className="object-cover h-80 w-full rounded mt-5 bg-green-500"
       />
       <PageName pageTitle={t('header.aboutUs')} />
       <div className="w-full q1024:max-w-[1000px] text-left text-sm mt-5 font-light">

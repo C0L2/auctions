@@ -8,17 +8,17 @@ const Rules = () => {
   return (
     <div className="max-w-[1000px]">
       <PageName pageTitle={t('header.howToBuy.how')} />
-      <h1 className="mt-5 font-semibold text-primary">
+      <h1 className="mt-5 font-semibold text-secondary">
         {t('rules.auctions.title')}
       </h1>
-      <Separator className="bg-primary" />
+      <Separator className="bg-secondary" />
       <div className="mt-5 font-light">
         <ol className="list-decimal">
           <li className="mb-2">
             {t('rules.auctions.rule1')}
             <a
               href="/authorization"
-              className="ml-2 text-primary font-semibold"
+              className="ml-2 text-secondary font-semibold"
             >
               {t('rules.auctions.register')}
             </a>
@@ -31,20 +31,20 @@ const Rules = () => {
         </ol>
         <p className="mt-4">
           {t('rules.auctions.aditional_info')}
-          <a href="/faq" className="ml-2 text-primary font-semibold">
+          <a href="/faq" className="ml-2 text-secondary font-semibold">
             {t('header.howToBuy.faq')}
           </a>
           {t('rules.auctions.or')}
-          <a href="contact-us" className="ml-2 text-primary font-semibold">
+          <a href="contact-us" className="ml-2 text-secondary font-semibold">
             {t('header.contact')}
           </a>
         </p>
       </div>
 
-      <h1 className="mt-14 font-semibold text-primary">
+      <h1 className="mt-14 font-semibold text-secondary">
         {t('rules.announcements.title')}
       </h1>
-      <Separator className="bg-primary" />
+      <Separator className="bg-secondary" />
       <div className="mt-5 font-light">
         <ol className="list-decimal">
           <li className="mb-2">
@@ -52,7 +52,7 @@ const Rules = () => {
             <a
               target="_blank"
               href="https://autoscout24.ch/"
-              className="ml-2 text-primary font-semibold"
+              className="ml-2 text-secondary font-semibold"
             >
               autoscout24.ch
             </a>
@@ -60,7 +60,7 @@ const Rules = () => {
             <a
               target="_blank"
               href="https://www.tutti.ch/de"
-              className="ml-2 text-primary font-semibold"
+              className="ml-2 text-secondary font-semibold"
             >
               tutti.ch
             </a>
@@ -68,7 +68,7 @@ const Rules = () => {
             <a
               target="_blank"
               href="https://www.ricardo.ch/de/"
-              className="ml-2 text-primary font-semibold"
+              className="ml-2 text-secondary font-semibold"
             >
               richardo.ch
             </a>
@@ -78,10 +78,10 @@ const Rules = () => {
         <p className="mt-4">{t('rules.announcements.message')}</p>
       </div>
 
-      <h1 className="mt-14 font-semibold text-primary">
+      <h1 className="mt-14 font-semibold text-secondary">
         {t('rules.transport.title')}
       </h1>
-      <Separator className="bg-primary" />
+      <Separator className="bg-secondary" />
       <div className="mt-5 font-light">
         <p className="mt-4">{t('rules.transport.message')}</p>
         <ul className="list-disc mt-5">
