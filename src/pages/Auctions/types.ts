@@ -1,12 +1,16 @@
 import { z } from 'zod'
 
-export type AuctionItem = {
-  photo: string
+export type AuctionCar = {
+  id: number
   title: string
-  firstReg?: string
-  mileage?: number
-  referenceNumber?: string
-  endOfAuction?: string
+  production_date: Date
+  run: number
+  start_date?: string
+  end_date: Date
+  ref_id: string
+  photos: string
+  min_image?: string
+  observed?: boolean
 }
 
 export const searchFormSchema = z.object({

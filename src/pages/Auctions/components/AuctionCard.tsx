@@ -1,47 +1,48 @@
 import { Card } from '@/components/ui/card'
-import { AuctionItem } from '../types'
+import { AuctionCar } from '../types'
 import { useTranslation } from 'react-i18next'
-import DoubleButton from '../../../components/DoubleButton'
+import DoubleButton from '@/components/DoubleButton'
 
 const AuctionCard = ({
-  photo,
+  photos,
   title,
-  firstReg,
-  mileage,
-  referenceNumber,
-  endOfAuction,
-}: AuctionItem) => {
+  production_date,
+  run,
+  ref_id,
+  end_date,
+  id,
+}: AuctionCar) => {
   const { t } = useTranslation('global')
 
   return (
-    <Card className="h-[130px] w-full flex bg-slate-50">
+    <Card className="h-[130px] w-full flex bg-slate-50 mb-2">
       <img
-        src={photo}
-        className="block h-[128px] w-[217px] object-cover rounded-tl-lg rounded-bl-lg"
+        src={`https://www.autazeszwajcarii.pl/${photos}`}
+        className="block h-[128px] w-full max-w-[217px] object-cover rounded-tl-lg rounded-bl-lg"
       />
       <div className="flex-grow p-3">
         <h1 className="text-primary font-medium text-2xl">{title}</h1>
         <div className="text-sm flex justify-between gap-12 [&_span]:text-primary ">
           <div className="flex flex-col">
             <div className="space-y-2">
-              <div>
+              <div className="flex gap-2">
                 <span>{t('auctionItem.info.firstReg')}</span>
-                {firstReg}
+                {new Date(production_date).getFullYear()}
               </div>
               <div>
-                <span>{t('auctionItem.info.mileage')}</span> {mileage} km
+                <span>{t('auctionItem.info.mileage')}</span> {run} km
               </div>
               <div>
-                <span>{t('auctionItem.info.refNumber')}</span> {referenceNumber}
+                <span>{t('auctionItem.info.refNumber')}</span> {ref_id}
               </div>
             </div>
           </div>
           <div className="flex flex-col">
             <div className="space-y-2">
               <span>{t('auctionItem.info.endOfAuction')}</span>
-              {endOfAuction}
+              {new Date(end_date).toLocaleString()}
             </div>
-            <DoubleButton referenceNumber={referenceNumber!} />
+            <DoubleButton referenceNumber={ref_id!} id={id} />
           </div>
         </div>
       </div>
