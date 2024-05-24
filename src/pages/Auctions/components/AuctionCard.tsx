@@ -42,7 +42,7 @@ const AuctionCard = ({
               <span>{t('auctionItem.info.endOfAuction')}</span>
               {new Date(end_date).toLocaleString()}
             </div>
-            <DoubleButton referenceNumber={ref_id!} id={id} />
+            <DoubleButton referenceNumber={ref_id!} id={id} title={title} />
           </div>
         </div>
       </div>

@@ -3,30 +3,32 @@ import { Button } from './ui/button'
 import { HoverCard, HoverCardTrigger } from './ui/hover-card'
 import { useTranslation } from 'react-i18next'
 import { Link } from 'react-router-dom'
-import { useGetLazySpecificAuctionMutation } from '@/services/auction'
+// import { useGetLazySpecificAuctionMutation } from '@/services/auction'
 import { useEffect, useState } from 'react'
+import { stringify } from 'querystring'
 
 const DoubleButton = ({
   firstFunction,
   referenceNumber,
   id,
+  title,
 }: {
   referenceNumber: string
   firstFunction?: () => void
   secondFunction?: () => void
   id?: number
+  title?: string
 }) => {
   const { t } = useTranslation('global')
-  const [clicked, setClicked] = useState(false)
-  const [getSpecificAuction, { data, isLoading }] =
-    useGetLazySpecificAuctionMutation()
+  // const [clicked, setClicked] = useState(false)
+  // const [getSpecificAuction, { data, isLoading }] =
+  // useGetLazySpecificAuctionMutation()
 
-  useEffect(() => {
-    if (clicked && !isLoading) {
-      console.log(data)
-    }
-  }, [clicked, isLoading])
-
+  // useEffect(() => {
+  //   if (clicked && !isLoading) {
+  //     console.log(data)
+  //   }
+  // }, [clicked, isLoading])
   return (
     <div className="flex max-w-[300px] ">
       <HoverCard>
@@ -47,12 +49,14 @@ const DoubleButton = ({
           </span>
         </HoverCardContent>
       </HoverCard>
-      <Link to={`/auctions/${referenceNumber}`}>
+      <Link
+        to={`/auctions/${id}/${title?.replace(/\s+/g, '-').toLocaleLowerCase().replace(',', '')}`}
+      >
         <Button
-          onClick={() => {
-            setClicked(true)
-            getSpecificAuction(id!)
-          }}
+          // onClick={() => {
+          //   setClicked(true)
+          //   getSpecificAuction(id!)
+          // }}
           className="h-full rounded-bl-none rounded-tl-none max-w-[150px] whitespace-normal break-normal"
         >
           {t('auctionItem.btns.more')}
